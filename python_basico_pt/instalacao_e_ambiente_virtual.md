@@ -1,3 +1,5 @@
+precisa de tradução
+
 # Install Python on Windows
 
 ## Python
