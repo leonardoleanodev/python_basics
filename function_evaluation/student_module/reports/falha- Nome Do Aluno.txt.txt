@@ -1,0 +1,9 @@
+
+0
+nome da funcao incorreto.nao passou pelo 'nao valido'
+    nao passou pelo 'magico'
+    nao passou pelo 'menor'
+    nao passou pelo 'maior'
+    nao passou pelo 'muito menor'
+    nao passou pelo 'muito menor'
+    
