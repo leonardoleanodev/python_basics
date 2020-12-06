@@ -1,18 +1,25 @@
+import os
 from multiprocessing import Pool
+
 import random
 import time
 
-def runner(func_list):
-    with Pool(3) as p:
-        procs = []
-        # register the processes
-        for func, args in func_list:
-            proc = p.apply_async(func, args)
-            procs.append(proc)
-        
-        # run every process in parallel
-        for proc in procs:
-            proc.get()
+class PoolRunner(object):
+    def __init__(self):
+        self.processes = os.cpu_count()-1
+
+    def runner(self, func_list):
+        with Pool(self.processes) as p:
+            procs = []
+            # register the processes
+            for func, args in func_list:
+                proc = p.apply_async(func, args)
+                procs.append(proc)
+            
+            # run every process in parallel
+            for proc in procs:
+                proc.get()
+        return procs
 
 def f(x):
     for i in range(10):
@@ -49,7 +56,8 @@ if __name__ == '__main__':
         func_list.append(
             (f,(i,))
         )
-    runner(func_list)
+
+    PoolRunner().runner(func_list)
 
     finish = time.time()
     delta = finish-start
