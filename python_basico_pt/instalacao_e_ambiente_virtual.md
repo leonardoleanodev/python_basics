@@ -13,9 +13,9 @@ https://www.python.org/
 - add python 3.7 to path
 - disable the path limitation 
 
-![plot](./install_python.png)
+![plot](./instalacao_figures/install_python.png)
 
-![plot](./install_python_2.png)
+![plot](./instalacao_figures/install_python_2.png)
 
 
 ### Test the python 
