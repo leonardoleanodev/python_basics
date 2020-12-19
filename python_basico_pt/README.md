@@ -1,5 +1,15 @@
 # Indice:
-- [Variáveis em Python](variaveis.ipynb)
-- [Operadores em Python](operadores.ipynb)
+- [Instalação e ambiente virtual](instalacao_e_ambiente_virtual.md)
+- [Variáveis](variaveis.ipynb)
+- [Operadores](operadores.ipynb)
+- [Formatacao de strings](formatacao_string.ipynb)
+- [Listas](listas.ipynb)
+- [Estruturas condicionais](estruturas_condicionais.ipynb)
+- [Loops](loops.ipynb)
+- [Funções](funcoes.ipynb)
+
+Referências:
 
 https://docs.python.org/3/library/functions.html#func-bytes
+
+https://realpython.com/python-f-strings/
