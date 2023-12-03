@@ -7,6 +7,8 @@
 - [Estruturas condicionais](estruturas_condicionais.ipynb)
 - [Loops](loops.ipynb)
 - [Funções](funcoes.ipynb)
+- [Classes e objetos](classes_e_objetos.ipynb)
+- [Casos de Uso](casos_de_uso.ipynb)
 
 Referências:
 
